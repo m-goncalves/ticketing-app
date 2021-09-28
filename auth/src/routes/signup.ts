@@ -16,11 +16,7 @@ router.post('/api/users/signup', [
 ], async (req: Request, res: Response) => {
   const errors = validationResult(req);
   
-  
-  
   if (!errors.isEmpty()) {
-    console.log('teste errors')
-    console.log(errors.array());
     throw new RequestValidationsError(errors.array());
   }
   
