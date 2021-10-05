@@ -1,4 +1,5 @@
 /auth/node_modules
+/client/.next
 /client/node_modules
 /client/package-lock.json
 /auth/package-lock.json
