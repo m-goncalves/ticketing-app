@@ -9,7 +9,7 @@ const router = express.Router();
 router.post('/api/users/signup', [
   body('email')
     .isEmail()
-    .withMessage('You must enter an valide e-mail!'), 
+    .withMessage('You must enter an valid e-mail!'), 
   body('password')
     .trim()
     .isLength({ min: 4, max: 20})
