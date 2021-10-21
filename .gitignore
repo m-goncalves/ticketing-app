@@ -1,6 +1,6 @@
-
 /auth/node_modules
 /common
+!/common/package.json
 /client/.next
 /client/node_modules
 /client/package-lock.json
